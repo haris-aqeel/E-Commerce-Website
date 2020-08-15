@@ -1,3 +1,7 @@
+*{
+    
+}
+
 .nav-item{
     font-size: 18px;
     margin: 0px 18px;
@@ -46,4 +50,20 @@
         font-size: 20px;
     }
         
+}
+
+article{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: ivory;
+}
+
+.icon{
+    margin: 15px auto;
+    padding: 25px;
+    background-color: gold;
+    border: 2px solid goldenrod;
+    border-radius: 100%;
+    width: 130px;
+    height: 130px;
 }
