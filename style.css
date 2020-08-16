@@ -53,17 +53,24 @@
 }
 
 article{
-    padding-top: 80px;
+    padding-top: 90px;
     padding-bottom: 80px;
-    background-color: ivory;
+    background-color: rgb(233, 233, 233);
 }
+
 
 .icon{
     margin: 15px auto;
     padding: 25px;
     background-color: gold;
-    border: 2px solid goldenrod;
+    border: 2px solid gold;
     border-radius: 100%;
     width: 130px;
     height: 130px;
+}
+
+
+.text-muted{
+    text-align: center;
+    margin-top: 20px;
 }
