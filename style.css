@@ -52,7 +52,7 @@
         
 }
 
-article{
+#attributes{
     padding-top: 90px;
     padding-bottom: 80px;
     background-color: rgb(233, 233, 233);
@@ -73,4 +73,33 @@ article{
 .text-muted{
     text-align: center;
     margin-top: 20px;
+}
+
+
+/* ============================ Our Featured Products ================================ */
+
+#featuredProducts{
+    background-color: rgb(36, 35, 35);
+    text-transform: capitalize!important;
+}
+
+
+.main1{
+    color: rgb(218, 228, 231);
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+/* ============================ Men Clothing ================================ */
+
+#mensClothing{
+    background-color: rgb(218, 228, 231);
+    text-transform: capitalize!important;
+
+}
+
+.main2{
+    color:  rgb(36, 35, 35);
+    padding-top: 40px;
+    padding-bottom: 60px;
 }
