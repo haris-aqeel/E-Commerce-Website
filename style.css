@@ -95,6 +95,7 @@
 #mensClothing{
     background-color: rgb(218, 228, 231);
     text-transform: capitalize!important;
+    padding-bottom: 70px;
 
 }
 
@@ -102,4 +103,13 @@
     color:  rgb(36, 35, 35);
     padding-top: 40px;
     padding-bottom: 60px;
+}
+
+
+/* ============================ Women Clothing ================================ */
+
+#femaleClothing{
+    background-color: rgb(127, 105, 133);
+    text-transform: capitalize!important;
+
 }
