@@ -1,6 +1,4 @@
-*{
-    
-}
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 .nav-item{
     font-size: 18px;
@@ -85,6 +83,7 @@
 
 
 .main1{
+    font-family: 'Staatliches', cursive;
     color: rgb(218, 228, 231);
     padding-top: 40px;
     padding-bottom: 60px;
@@ -100,6 +99,7 @@
 }
 
 .main2{
+    font-family: 'Staatliches', cursive;
     color:  rgb(36, 35, 35);
     padding-top: 40px;
     padding-bottom: 60px;
@@ -111,5 +111,6 @@
 #femaleClothing{
     background-color: rgb(127, 105, 133);
     text-transform: capitalize!important;
+    padding-bottom: 70px;
 
 }

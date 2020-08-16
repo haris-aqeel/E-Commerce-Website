@@ -26,7 +26,7 @@
                     <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#attributes">About</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -38,7 +38,7 @@
                         <a class="dropdown-item" href="#femaleClothing">WOMENS'S CLOTHING</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact us</a>
+                    <a class="nav-link" href="#contactUs">Contact us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16"
@@ -48,11 +48,74 @@
                         </svg></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16"
+                    <a class="nav-link" href="#"  data-toggle="modal" data-target="#exampleModal"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16"
                             class="bi bi-people" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd"
                                 d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.995-.944v-.002.002zM7.022 13h7.956a.274.274 0 0 0 .014-.002l.008-.002c-.002-.264-.167-1.03-.76-1.72C13.688 10.629 12.718 10 11 10c-1.717 0-2.687.63-3.24 1.276-.593.69-.759 1.457-.76 1.72a1.05 1.05 0 0 0 .022.004zm7.973.056v-.002.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10c-1.668.02-2.615.64-3.16 1.276C1.163 11.97 1 12.739 1 13h3c0-1.045.323-2.086.92-3zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" />
                         </svg></a>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                             <div class="modal-header">
+                             <h5 class="modal-title" id="exampleModalLabel">Sign UP</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                              </button>
+                           </div>
+                           <div class="modal-body">
+                            <form class="needs-validation" novalidate>
+                                <div class="form-row">
+                                  <div class="col-md-6 mb-3">
+                                    <label for="validationTooltip01">First name</label>
+                                    <input type="text" class="form-control" id="validationTooltip01" value="Mark" required>
+                                    <div class="valid-tooltip">
+                                      Looks good!
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 mb-3">
+                                    <label for="validationTooltip02">Last name</label>
+                                    <input type="text" class="form-control" id="validationTooltip02" value="Otto" required>
+                                    <div class="valid-tooltip">
+                                      Looks good!
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="form-row">
+                                  <div class="col-md-6 mb-3">
+                                    <label for="validationTooltip03">City</label>
+                                    <input type="text" class="form-control" id="validationTooltip03" required>
+                                    <div class="invalid-tooltip">
+                                      Please provide a valid city.
+                                    </div>
+                                  </div>
+                                  <div class="col-md-3 mb-3">
+                                    <label for="validationTooltip04">State</label>
+                                    <select class="custom-select" id="validationTooltip04" required>
+                                      <option selected disabled value="">Choose...</option>
+                                      <option>...</option>
+                                    </select>
+                                    <div class="invalid-tooltip">
+                                      Please select a valid state.
+                                    </div>
+                                  </div>
+                                  <div class="col-md-3 mb-3">
+                                    <label for="validationTooltip05">Zip</label>
+                                    <input type="text" class="form-control" id="validationTooltip05" required>
+                                    <div class="invalid-tooltip">
+                                      Please provide a valid zip.
+                                    </div>
+                                  </div>
+                                </div>
+                                <button class="btn btn-primary" type="submit">Submit form</button>
+                              </form>    
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                           </div>
+                        </div>
+                          </div>
                 </li>
             </ul>
         </div>
@@ -274,6 +337,50 @@
         </div>
 
     </article>
+
+    <article class="container-fluid bg-primary" id="contactUs">
+
+        <div class="container py-5 text-center">
+            <h1 class="text-center font-weight-bold text-white py-3">Contact us</h1>
+            <h4 class="text-center font-weight-bold text-white py-2">Call At +923345678901</h3>
+            <button type="button" class="btn btn-light text-center font-weight-bold text-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Email Us</button>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog text-left">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Recipient:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="message-text" class="col-form-label">Message:</label>
+                        <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Send message</button>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+    </article>
+    <footer class="container-fluid bg-dark text-white">
+        <div class="container py-1">
+        © 2020, Your company. All rights reserved Made By Haris Aqeel
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
