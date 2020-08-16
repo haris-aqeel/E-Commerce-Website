@@ -42,10 +42,28 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16"
-                            class="bi bi-cart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            class="bi bi-cart-fill" fill="currentColor" data-toggle="modal" data-target="#exampleModal" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd"
                                 d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
                         </svg></a>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">CART</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                    Oops! You don't have any thing in the cart.
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#"  data-toggle="modal" data-target="#exampleModal"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16"
